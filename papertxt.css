@@ -1,0 +1,118 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 4
+   Case Problem 4
+
+   Park City Gazette Style Sheet
+   Author: Crystal K. Holt
+   Date:   4/21/18
+
+   Filename:         paper.css
+   Supporting Files: 
+
+*/
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+/*use of the clear property/element*/
+p.clear {
+    clear: both;
+}
+
+nav ul {
+   line-height: 3em;
+   list-style-type: none;
+}
+
+/*use of tiled background and parch2.txt file*/
+nav ul li a {
+   color: white;
+   background-image: url("parch2.jpg");
+   background-repeat: repeat;
+   text-decoration: none;
+   width: 100%;
+}
+
+
+nav ul li a:hover {
+   color: yellow;
+   color: rgba(255, 255, 255, 1);
+}
+
+p.double {border-style: double;}
+
+p.outset {border-style: outset;}
+
+
+
+
+#rightsection h1 {
+    font-size: 22px;
+    kerning: 3px;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+#rightsection h2 {
+    font-size: 18px;
+    text-align: right;
+    font-weight: none;
+}
+
+
+#rightsection p {
+    color: black;
+    font-size: 14px;
+    text-align: justify;
+}
+
+
+blockquote {
+    background-color: rgba(131, 121, 36);
+    color: white;
+    font-size: 16px;
+    font-family: "Comic Sans MS", "Times New Roman", Times, cursive;    
+}
+
+
+blockquote { quotes: '\201c' '\201d'; }
+p:before { content: open-quote; }
+p:after  { content: close-quote; }
+
+#articleheader { 
+    font-size: 22px;font-weight: bold;font-kerning: 7px;text-align: left;
+}
+p {
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+/*application of width and height style properites*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 600px;
+    line-height: 3em;
+    background-color: gray;
+}
+
+/*use of display property*/
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    opacity: 50%;
+}
+
+
+footer {
+    font-size: 16px;
+    font-style: normal;
+    text-align: center;
+
+}
+
